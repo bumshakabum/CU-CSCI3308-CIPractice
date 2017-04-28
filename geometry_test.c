@@ -25,7 +25,7 @@ START_TEST(test_2d_area_triangle)
   a.x = a.y = 0;
   b.x = c.y = 1;
   b.y = c.x = 0;
-  ck_assert(coord_2d_area_triangle(&a, &b, &c));
+  ck_assert(coord_2d_area_triangle(&a, &b, &c)== 0.5);
 }
 END_TEST
 
