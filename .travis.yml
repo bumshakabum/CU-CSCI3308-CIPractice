@@ -1,1 +1,4 @@
 language: c
+compiler: clang
+install: make-deps
+script: ./geometry_test
