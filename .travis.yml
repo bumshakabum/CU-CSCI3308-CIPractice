@@ -1,4 +1,4 @@
 language: c
 compiler: clang
-install: make get-deps
+install: make test
 script: ./geometry_test
