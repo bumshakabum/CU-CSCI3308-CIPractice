@@ -1,6 +1,6 @@
 language: c
 compiler: clang
 install:
-  - make test
   - sudo apt-get install check
+  - make test
 script: ./geometry_test
